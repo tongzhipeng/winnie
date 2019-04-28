@@ -1,0 +1,9 @@
+快捷键相关：
+首先IDEA需要配好visual studio快捷键， 入口File->Settings->Keymap->下拉visual studio
+启动调试 F5
+打断点 F9
+单步步进（step over） F10
+单步步入 (step into) F11
+继续执行直到当前函数返回 Shift+F11
+继续执行（直到遇到下一个断点或程序退出） F5
+
