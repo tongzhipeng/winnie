@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <parameter name="Browser" value="Chrome" />
+    <parameter name="Server" value="https://www.baidu.com" />
+    <test name="yyy">
+        <classes>
+            <class name="com.java.learn.TestNG_Demo1"/>
+            <!-- 添加不同测试类文件 -->
+            <class name="com.java.learn.TestNG_Demo2"/>
+            <class name="demo2.TestNG_Demo3"/>
+
+        </classes>
+    </test>
+</suite>
